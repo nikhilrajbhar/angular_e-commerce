@@ -1,0 +1,86 @@
+{
+  "seller": [
+    {
+      "id": 1,
+      "name": "nikhil",
+      "password": "typicode",
+      "email": "email@gmail.comment"
+    },
+    {
+      "id": 2,
+      "name": "nikhil2",
+      "password": "54321",
+      "email": "email@gmail.comment"
+    },
+    {
+      "name": "aa",
+      "password": "bb",
+      "email": "aa@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "aa",
+      "password": "bb",
+      "email": "aa@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "qq",
+      "password": "ww",
+      "email": "qq",
+      "id": 5
+    },
+    {
+      "name": "nik",
+      "password": "raj",
+      "email": "nn@GMAIL.COM",
+      "id": 6
+    },
+    {
+      "name": "aw",
+      "password": "aw",
+      "email": "aw",
+      "id": 7
+    },
+    {
+      "name": "ad",
+      "password": "ad",
+      "email": "ad",
+      "id": 8
+    },
+    {
+      "name": "ad",
+      "password": "ad",
+      "email": "ad",
+      "id": 9
+    },
+    {
+      "name": "ad",
+      "password": "ad",
+      "email": "ad",
+      "id": 10
+    },
+    {
+      "name": "sadsd",
+      "password": "fdf",
+      "email": "dfdf",
+      "id": 11
+    },
+    {
+      "name": "ty",
+      "password": "ty",
+      "email": "yt",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
