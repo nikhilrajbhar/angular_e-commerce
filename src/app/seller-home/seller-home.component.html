@@ -1,1 +1,40 @@
-<p>seller-home works!</p>
+<!-- <div class="product-list">
+    <h1>All Product list</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Color</th>
+                <th>Category</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td>{{item.productName}}</td>
+                <td>{{item.productPrice}}</td>
+                <td>{{item.productColor}}</td>
+                <td>{{item.productDescription}}</td>
+                <td>{{item.productImage}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
+<!-- productMessage -->
+
+<div class="product-list" style="display:flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>All Product list</h1>
+    <p class="message-danger">{{productMessage}}</p>
+<ag-grid-angular
+id="nikhilgrid"
+    style="width:100%;height:100vh;text-align: center;justify-items: center; align-items: center;"
+    class="ag-theme-alpine"
+    [rowData]="productList"
+    [columnDefs]="columnDefs"
+    [pagination]="true"
+    (gridReady)="onGridReady($event)"
+    >
+</ag-grid-angular>
+</div>
+

@@ -1,0 +1,17 @@
+
+.ag-header-cell-label {
+    justify-content: center;
+ }
+
+ .ag-header-cell-label {
+    text-align: center;
+  }
+  
+
+.ag-theme-alpine, .ag-theme-alpine-dark {
+    --ag-alpine-active-color: transparent;
+}
+
+.rounded-image{
+  border-radius: 50%;
+}

@@ -71,6 +71,40 @@
       "password": "ty",
       "email": "yt",
       "id": 12
+    },
+    {
+      "observe": "response",
+      "id": 13
+    },
+    {
+      "observe": "response",
+      "id": 14
+    },
+    {
+      "observe": "response",
+      "id": 15
+    },
+    {
+      "observe": "response",
+      "id": 16
+    }
+  ],
+  "product": [
+    {
+      "productName": "trimmer",
+      "productPrice": 2000,
+      "productColor": "black",
+      "productDescription": "trimm trim",
+      "productImage": "https://plus.unsplash.com/premium_photo-1664374288435-37ed267a70ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80",
+      "id": 5
+    },
+    {
+      "productName": "samsung",
+      "productPrice": 560000,
+      "productColor": "red",
+      "productDescription": "na na na na na ",
+      "productImage": "sdsddsdsd",
+      "id": 6
     }
   ],
   "comments": [
